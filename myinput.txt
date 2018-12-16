@@ -1,0 +1,50 @@
+intt  a1 , b , c , d , e  ``
+intt a1 ``
+t :o 8 ``
+VALUE [ t ] ``
+a1 :o 10 ``
+VALUE [ a1 ] ``
+b :o 2 `` 
+VALUE [ b ] ``
+
+c :o a1 :) b ``
+d :o a1 :( f ``
+
+IF [ a1 8> b ] 
+{ 
+	IF [ c 8> a1] 
+	{ d :o c `` VALUE [ d ] ``}
+         FI 
+	{ d :o a1 `` VALUE [ d ] ``} 
+ }
+FI 
+{ 
+	IF [ c 8> b] 
+		{ d :o c :) a1 `` 
+		 VALUE [ d ] ``
+		}
+         FI 
+		{ d :o b ``
+	 	 VALUE [ d ] ``
+		} 
+ }
+
+CASE [ a1 ]
+{
+2  :   {  d :o 2 `` }
+10 :   {  d :o 10 `` }
+ESAC : {  d :o 1 `` }
+}
+VALUE [ d ] ``
+ 
+FR [ b :o 2 : b <3 5 : b :):) ]
+{
+d :o d :) 1 ``
+VALUE [ d ] ``
+}
+
+VALUE [ d ] ``
+
+
+	
+ 

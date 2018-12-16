@@ -1,0 +1,48 @@
+
+Double Declaration!
+
+Not declared
+
+Value of the variable: 0	
+
+Value of the variable: 10	
+
+Value of the variable: 2	
+
+Addition value 12
+
+Not declaredd!
+
+Subtraction value 10
+
+Value of the variable: 12	
+
+Value of the variable: 10	
+
+Condition is true in IF: 12
+
+Addition value 22
+
+Value of the variable: 22	
+
+Value of the variable: 2	
+
+Condition is true in IF: 22
+
+Condition is true in IF: 1
+
+Executed 10
+
+Value of the variable: 1	
+
+Addition value 2
+
+Value of the variable: 2	
+
+Expression in for loop : 2
+
+Expression in for loop : 2
+
+Expression in for loop : 2
+
+Value of the variable: 2	
